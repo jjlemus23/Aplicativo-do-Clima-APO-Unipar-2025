@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    tools:context=".SobreFragment">
+
+    <ImageView
+        android:id="@+id/eu_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/eu"
+        android:layout_marginTop="32dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jose Jesus Lemus Barreto"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/text_ra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RA: 09048050"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/text_course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Curso: Análise e Desenvolvimento de Sistemas."
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/text_course2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Unipar - Cianorte."
+        android:textSize="18sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informações do Projeto Climático"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:layout_marginTop="32dp"
+        android:gravity="center"/>
+
+</LinearLayout>
