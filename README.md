@@ -23,7 +23,7 @@ Para rodar este projeto na sua máquina e poder modificá-lo, você precisará d
 ### Dependências Chave Utilizadas:
 
 * **Retrofit:** Para as chamadas assíncronas à API do clima.
-* **Coroutines / Flow:** Para gerenciar o estado da UI e as operações em segundo plano de forma reativa e eficiente.
+* **LiveData (do Android Jetpack):** Usado para gerenciar o estado da UI de forma observável, permitindo que os componentes da interface reajam às mudanças de dados de forma segura.
 * **Arquitetura:** Tentamos seguir (ou pelo menos nos aproximar 🤞) do padrão **MVVM** (Model-View-ViewModel) para separar a lógica de negócio da interface do usuário.
 
 ---
