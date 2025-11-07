@@ -34,7 +34,7 @@ public class ProximosDiasFragment extends Fragment implements OnMapReadyCallback
     private ForecastAdapter forecastAdapter;
 
     private static final String BASE_URL = "https://api.hgbrasil.com/";
-    private static final String API_KEY = "SUA_CHAVE_AQUI";
+    private static final String API_KEY = "https://api.hgbrasil.com/weather?woeid=455827";
 
     public ProximosDiasFragment() {
         // Construtor público vazio é necessário
